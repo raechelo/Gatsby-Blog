@@ -42,10 +42,16 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: #9370DB;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
 }
 a:active,
 a:hover {
   outline-width: 0;
+  background-color: mediumturquoise;
+  padding: 20px;
+  color: #fff;
 }
 abbr[title] {
   border-bottom: none;
@@ -86,6 +92,7 @@ sup {
 }
 img {
   border-style: none;
+  margin: auto;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -199,7 +206,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: hsl(180, 100%, 27%);
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
